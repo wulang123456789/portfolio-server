@@ -4,8 +4,8 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 const ADMIN = {
-    username: 'admin',
-    password: bcrypt.hashSync('admin123', 10),
+    username: 'wulang',
+    password: bcrypt.hashSync('wu200435@', 10),
 };
 
 router.post('/login', async (req, res) => {
